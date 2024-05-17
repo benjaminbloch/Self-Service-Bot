@@ -22,13 +22,13 @@ client.on('message', async msg => {
       msg.channel.send("/lock");
       break;
  case "purchase":
-      msg.reply("Ok! I will help you with this. Please specify the item you would like to buy. If you dont knoow, please say ``idk``");
+      msg.reply("Ok! I will help you with this. Please specify the item you would like to buy. If you dont know, please say ``idk``");
       break;
       case "token":
-      msg.reply("Ok! To buy a account token please send the money to [this link.](https://paypal.me/drsusplayz) Once done please say ``im done``");
+      msg.reply("Ok! To buy a account token please send the money to exotictermedfr@gmail.com Once done please say ``im done``");
       break;
       case "nitro3m":
-      msg.reply("Ok! To buy a account token  that has 3 month nitro on it please send the money to [this link.](https://paypal.me/drsusplayz) Once done please say ``im done``");
+      msg.reply("Ok! To buy a account token  that has 3 month nitro on it please send the money to exotictermedfr@gmail.com Once done please say ``im done``");
       break;
       case "nitrolink1m":
       msg.reply("Ok! To buy a nitro gift link that is 1 month nitro, please send the money to [this link.](https://paypal.me/drsusplayz) Once done please say ``im done``");
@@ -37,7 +37,7 @@ client.on('message', async msg => {
       msg.reply("Ok! To buy a nitro gift link that is 12 month nitro, please send the money to [this link.](https://paypal.me/drsusplayz) Once done please say ``im done``");
       break;
       case "nitro1m":
-      msg.reply("Ok! To buy a account token that has 1 month nitro on it please send the money to [this link.](https://paypal.me/drsusplayz) Once done please say ``im done``");
+      msg.reply("Ok! To buy a account token that has 1 month nitro on it please send the money to exotictermedfr@gmail.com Once done please say ``im done``");
       break;
  case "idk":
       msg.channel.send("# List Of Products");
