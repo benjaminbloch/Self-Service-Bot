@@ -17,6 +17,10 @@ client.on('message', async msg => {
       msg.reply("Ok! I cant do that. Please wait for the owner/staff to support you.");
       msg.channel.send("/lock");
       break;
+  case "im done":
+      msg.reply("Ok, please wait for someone to confirm it. Thanks for the purchase!");
+      msg.channel.send("/lock");
+      break;
  case "purchase":
       msg.reply("Ok! I will help you with this. Please specify the item you would like to buy. If you dont knoow, please say ``idk``");
       break;
