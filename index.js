@@ -14,6 +14,18 @@ client.on('message', async msg => {
       msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
       msg.channel.send("Cost: $0.50 **PER TOKEN**");
       break;
+case "startvip1":
+      msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
+      msg.channel.send("Cost: $5");
+      break;
+case "startt0kens2":
+      msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
+      msg.channel.send("Cost: $0.85 **PER NITRO TOKEN (1 MONTH)**");
+      break;
+case "startt0kens2":
+      msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
+      msg.channel.send("Cost: $1.25 **PER TOKEN**");
+      break;
 case "howtot0ken":
       msg.channel.send(How to use an account token: 1. Install [THIS](https://chromewebstore.google.com/detail/discord-token-login/ealjoeebhfijfimofmecjcjcigmadcai?hl=en) Chrome Extension. 2. Log Out Of Your Current Discord Account. 3. On The Top Right Corner, Click The Extension. 4. Paste The Token. 5. You Should Have Logged In.
 
