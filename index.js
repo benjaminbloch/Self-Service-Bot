@@ -10,12 +10,12 @@ client.on('message', async msg => {
   case "start":
       msg.reply("Hello! I am going to help you today. I will try my best to support you with what you need. Please do one of theese commands: ``claim`` - to claim a role ``human`` - talk to a human ``purchase`` buy something from us.");
       break;
-      case "start":
-      msg.reply("Ok! thanks for the purchase. Please wait for the owner to verify it.");
-      msg.channel.send("/lock");
+      case "startt0kens1":
+      msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
+      msg.channel.send("Cost: $0.50 **PER TOKEN**");
       break;
-  case "claim":
-      msg.reply("Ok! I cant do that. Please wait for the owner/staff to support you.");
+  case "ready":
+      msg.reply("Ok! Please psy with [THIS LINK.](https://paypal.me/r8a1) Please make sure it is f&f though! ");
       msg.channel.send("/lock");
       break;
   case "im done":
