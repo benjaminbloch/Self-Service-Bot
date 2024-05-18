@@ -22,14 +22,17 @@ case "startt0kens2":
       msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
       msg.channel.send("Cost: $0.85 **PER NITRO TOKEN (1 MONTH)**");
       break;
-case "startt0kens3":
+case "startt0kens2":
       msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
       msg.channel.send("Cost: $1.25 **PER TOKEN**");
       break;
 case "howtot0ken":
-      msg.channel.send(How to use an account token: 1. Install [THIS](https://chromewebstore.google.com/detail/discord-token-login/ealjoeebhfijfimofmecjcjcigmadcai?hl=en) Chrome Extension. 2. Log Out Of Your Current Discord Account. 3. On The Top Right Corner, Click The Extension. 4. Paste The Token. 5. You Should Have Logged In.
-
-**Note:** PC ONLY");
+      msg.channel.send("How to use an account token: 1. Install [THIS](https://chromewebstore.google.com/detail/discord-token-login/ealjoeebhfijfimofmecjcjcigmadcai?hl=en) Chrome Extension. 2. Log Out Of Your Current Discord Account. 3. On The Top Right Corner, Click The Extension. 4. Paste The Token. 5. You Should Have Logged In.");
+      msg.channel.send("**Note:** PC ONLY");
+      break;
+case "howton1tr0":
+      msg.channel.send("How to redeem n1tr0: 1. Click on settings. 2. Click on gift inventory. 3. Enter the code.  4. If not a code, click on the link.");
+      msg.channel.send("**NOTE** Nitro gift links exipre within 24 hours, if you dont redeem it then there will be **NO** refund!");
       break;
   case "ready":
       msg.reply("Ok! Please psy with [THIS LINK.](https://paypal.me/r8a1) Please make sure it is f&f though! ");
