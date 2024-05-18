@@ -14,6 +14,11 @@ client.on('message', async msg => {
       msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
       msg.channel.send("Cost: $0.50 **PER TOKEN**");
       break;
+case "howtot0ken":
+      msg.channel.send(How to use an account token: 1. Install [THIS](https://chromewebstore.google.com/detail/discord-token-login/ealjoeebhfijfimofmecjcjcigmadcai?hl=en) Chrome Extension. 2. Log Out Of Your Current Discord Account. 3. On The Top Right Corner, Click The Extension. 4. Paste The Token. 5. You Should Have Logged In.
+
+**Note:** PC ONLY");
+      break;
   case "ready":
       msg.reply("Ok! Please psy with [THIS LINK.](https://paypal.me/r8a1) Please make sure it is f&f though! ");
       msg.channel.send("/lock");
