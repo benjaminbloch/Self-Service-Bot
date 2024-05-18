@@ -22,7 +22,7 @@ case "startt0kens2":
       msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
       msg.channel.send("Cost: $0.85 **PER NITRO TOKEN (1 MONTH)**");
       break;
-case "startt0kens2":
+case "startt0kens3":
       msg.channel.send("Hello, when you are reeady to purchase please say  "ready"");
       msg.channel.send("Cost: $1.25 **PER TOKEN**");
       break;
