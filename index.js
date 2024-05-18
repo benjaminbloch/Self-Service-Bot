@@ -2,8 +2,7 @@ require('dotenv').config();
 const Discord = require('discord.js');
 const axios = require('axios');
 const client = new Discord.Client();
-const Eris = require("eris");
-const keep_alive = require('./keep_alive.js')
+
 
 let interval;
 client.on('message', async msg => {
