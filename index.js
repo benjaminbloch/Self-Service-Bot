@@ -5,13 +5,6 @@ const client = new Discord.Client();
 
 const bot = new Eris(process.env.token);
 
-bot.on("error", (err) => {
-  console.error(err); 
-});
-
-bot.connect();
-
-
 let interval;
 client.on('message', async msg => {
   switch (msg.content) {
